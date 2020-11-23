@@ -30,7 +30,7 @@
             </div>
             <div class="more-search-table" style="padding-top:10px;">
                 <div class="search-item">
-                    <span>{{$t('monitor.contrastDate')}}</span>
+                    <span>{{$t('monitor.currentDate')}}</span>
                     <el-date-picker v-model="currentDate" type="date" :placeholder="$t('monitor.selectDate')" :picker-options="pickerOption" 
                     :format="$t('monitor.dateLabel')" :value-format="$t('monitor.dateFormat')" :default-value="`${Date()}`" class=" select-32" @change="changeCurrentDate">
                     </el-date-picker>
